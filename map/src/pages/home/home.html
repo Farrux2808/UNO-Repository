@@ -1,8 +1,12 @@
 <ion-header>
-  <ion-navbar color="secondary">
+  <ion-navbar >
+      <button ion-button menuToggle>
+          <ion-icon name="menu"></ion-icon>
+        </button>
     <ion-title>
      Home
     </ion-title>
+    
   </ion-navbar>
 </ion-header>
 
@@ -21,7 +25,12 @@
     </ion-slide>
   </ion-slides>
 <h3>Assalom Aleykum do'stim UNO loyihasiga xush kelibsiz....</h3>
-<button ion-button (click)="goToNewsPage()" class="fadein-out-border">Yangiliklar</button>
+<ion-row>
+  <ion-col><button ion-button (click)="goToNewsPage()" class="fadein-out-border">Yangiliklar</button>
+  </ion-col>
+  <ion-col><button ion-button (click)="goToTimeTablePage()" class="fadein-out-border">Dars jadval</button>
+  </ion-col>
+
+</ion-row>
  
-  
 </ion-content>

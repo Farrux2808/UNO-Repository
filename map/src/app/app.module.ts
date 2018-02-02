@@ -8,6 +8,7 @@ import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 import { NewsPage } from '../pages/news/news';  
+import { TimeTablePage } from './../pages/time-table/time-table';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { Geolocation} from '@ionic-native/geolocation';
@@ -23,7 +24,8 @@ import { DragulaModule } from 'ng2-dragula';
     ContactPage,
     HomePage,
     TabsPage,
-    NewsPage
+    NewsPage,
+    TimeTablePage
     
   ],
   imports: [
@@ -38,7 +40,8 @@ import { DragulaModule } from 'ng2-dragula';
     ContactPage,
     HomePage,
     TabsPage,
-    NewsPage
+    NewsPage,
+    TimeTablePage
    
   ],
   providers: [
