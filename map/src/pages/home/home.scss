@@ -24,4 +24,18 @@ page-home {
         -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
         filter:alpha(opacity=20)
      }
+
+    .slides {
+        height: 30%;
+    }
+      .swiper-pagination {
+				margin-top: 50px;
+				bottom:20px;
+                
+				.swiper-pagination-bullet {
+					background: darkblue ;
+					margin: 0 3px 15px ;
+				}
+			}
+    .fadein-out-border{ transition: 5s ease-in-out all;}
 }
