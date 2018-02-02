@@ -12,6 +12,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { Geolocation} from '@ionic-native/geolocation';
 
+import { LanguageProvider } from './../providers/language/language';
 
 import { DragulaModule } from 'ng2-dragula';
 
@@ -45,6 +46,7 @@ import { DragulaModule } from 'ng2-dragula';
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     Geolocation,
+    LanguageProvider
    
     
   ]
